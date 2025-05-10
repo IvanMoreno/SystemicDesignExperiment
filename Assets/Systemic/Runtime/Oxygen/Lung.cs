@@ -57,5 +57,6 @@ namespace Sistemic.Runtime.Oxygen
         }
 
         void Inhale() => AccumulatedOxygen += Time.deltaTime * oxygenAccumulationIncrementMultiplier;
+        void OnDrawGizmos() => Gizmos.DrawWireSphere(transform.position, carbonDioxideEmissionRadius);
     }
 }
