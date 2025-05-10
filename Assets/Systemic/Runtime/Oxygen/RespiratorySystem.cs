@@ -29,6 +29,7 @@ namespace Sistemic.Runtime.Oxygen
                 lung.enabled = false;
             }
 
+            this.enabled = false;
             GetComponentInChildren<SpriteRenderer>().color = Color.purple;
         }
     }
