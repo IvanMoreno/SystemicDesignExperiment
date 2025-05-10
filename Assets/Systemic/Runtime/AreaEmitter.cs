@@ -10,9 +10,14 @@ namespace Sistemic.Runtime
 
         void Update()
         {
+            EmitToElementsInsideArea();
+        }
+
+        void EmitToElementsInsideArea()
+        {
             foreach (var potentialReceiver in NearbyElements())
             {
-                EmitTo(potentialReceiver.gameObject);                
+                EmitTo(potentialReceiver.gameObject);
             }
         }
 
