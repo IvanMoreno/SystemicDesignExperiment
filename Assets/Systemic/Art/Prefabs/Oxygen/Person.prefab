@@ -148,7 +148,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   carbonDioxideEmissionRadius: 1
   oxygenAccumulationIncrementMultiplier: 1
-  oxygenAccumulationDecrementMultiplier: 0.2
+  oxygenAccumulationDecrementMultiplier: 0.4
   accumulatedOxygen: 1
 --- !u!58 &8134179158089820836
 CircleCollider2D:
