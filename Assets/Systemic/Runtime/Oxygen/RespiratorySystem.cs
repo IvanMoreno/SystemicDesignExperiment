@@ -16,7 +16,7 @@ namespace Sistemic.Runtime.Oxygen
         {
             if (!HasOxygenInBody()) return;
             
-            GetComponentInChildren<SpriteRenderer>().color = Color.Lerp(Color.white, Color.blue, OxygenInBody());
+            GetComponentInChildren<SpriteRenderer>().color = Color.Lerp(Color.white, Color.blue, 1 - OxygenInBody());
         }
 
         bool HasOxygenInBody() => OxygenInBody() > 0;
