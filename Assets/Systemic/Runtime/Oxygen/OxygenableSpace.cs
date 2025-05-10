@@ -20,7 +20,7 @@ namespace Sistemic.Runtime.Oxygen
             if (accumulatedOxygen > 0) 
                 EmitToElementsInsideArea();
 
-            GetComponentInChildren<SpriteRenderer>().color = Color.Lerp(Color.white, Color.blue, 1 - AccumulatedOxygen);
+            GetComponentInChildren<SpriteRenderer>().color = Color.Lerp(Color.white, Color.blue, AccumulatedOxygen);
         }
 
         void EmitToElementsInsideArea()
