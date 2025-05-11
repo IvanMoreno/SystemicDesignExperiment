@@ -622,7 +622,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7004461638571380796, guid: 3f2f04099463f85469ffc9e4d8dd2a4a, type: 3}
       propertyPath: m_Name
-      value: Atmosphere
+      value: Planet
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
